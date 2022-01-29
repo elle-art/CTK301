@@ -1,0 +1,50 @@
+header {
+ background-color: #B3CCB1;
+ color: #FFFFFF;
+}
+nav {
+ background-color: #D6D5D5;
+ color: #FFFFFF;
+}
+footer {
+ background-color: #B3CCB1;
+ color: #FFFFFF;
+}
+main {
+ background-color: #D6D5D5;
+ color: #000000;
+}
+
+a:link {
+ color: #D94848;
+}
+
+a:visited {
+ color: #91B18F;
+}
+
+a:hover {
+ color: #F2EABA;
+}
+
+#samantha {
+ color: #8C8C8C;
+}
+
+#susie {
+  color: #91B18F;
+}
+
+#allie {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.chloe {
+  color: #91B18F;
+  background-color: #777777;
+}
+
+.kati {
+  background-color: #91B18F;
+}
