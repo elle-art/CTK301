@@ -1,0 +1,41 @@
+header{
+  background-color: #6E9ECD;
+}
+
+h1{
+  color: white;
+}
+
+a:link {
+ color: green;
+ text-decoration: none;
+}
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+h2{
+  color: blue;
+}
+
+#span{
+  color: orange;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.redtext{
+  color: red;
+}
+
+#dad{
+  color: yellow;
+  background-color: green;
+}
+
+#lime{
+  background-color: lightgreen;
+}
