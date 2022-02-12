@@ -1,0 +1,76 @@
+body {
+  background-image: url(a5bg.png);
+}
+/*headers*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  width: 1450px;
+  background-color: #ffffff;
+  }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#val {
+  border-top: 5px solid #000000;
+}
+main {
+border: 1px solid #ffffff;
+padding: 10px;
+margin: 10px;
+width: 1450px;
+background-color: #ffffff;
+}
+
+footer {
+border: 5px solid #ffffff;
+padding: 10px;
+margin: 10px;
+width: 1450px;
+background-color: darkblue;
+color: #ffffff;
+font-family: Verdana, sans-serif;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+}
+
+/*nav*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  padding: 0px;
+  margin: 10px;
+  width: 150px;
+}
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid darkblue;
+  padding: 10px;
+  background-color: darkblue;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: lightblue;
+}
+
+/*p links*/
+ p a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+p a:hover {
+  color: red;
+  text-decoration: underline;
+}
