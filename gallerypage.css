@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-column-gap: 5px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 :root {
     --card_width: 360px;
@@ -34,6 +34,7 @@ nav ul {
   grid-template-columns: repeat(4, 1fr);
 list-style-type: none;
 margin: 0px;
+margin-left: 3%;
 padding: 0px;
 }
 aside nav li a {
@@ -79,7 +80,7 @@ main div img{
 }
 
 .pin_container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
     margin: 24px;
     padding: 0px;
     width: auto;
@@ -176,74 +177,81 @@ p {
   color: #5A5A5A;
 }
 
-
-#myImg {
-  border-radius: 16px;
-  cursor: pointer;
-  transition: 0.3s;
+main {
+    text-align: center;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgb(155,141,141,0.9) /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 100%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  font-family: century-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
+a {
   text-decoration: none;
-  cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
+
+#socials {
+font-size: 100px;
+margin-right: 65px;
+text-align: center;
+}
+aside a {
+color: #BAD1C6;
+}
+aside a:hover {
+color: #91B4A3;
+transition: background-color 1.0s, width 1.0s, color 1.0s;
+}
+
+div#form_sample{
+background-color: #ACC6BA;
+text-align:center;
+width: 80%;
+padding:15px 50px 15px;
+margin-top:20px;
+border-radius: 16px;
+margin-left: 5%;
+font-family: century-gothic, sans-serif;
+}
+h1{
+margin-top: 30px;
+color: #6C8C74;
+font-size: 44px;
+border-bottom: 0px;
+margin-bottom: 10px;
+}
+label{
+float:left;
+font-size: 20px;
+color: #6C8C74;
+font-weight: bold;
+}
+input[type="text"]{
+font-family: century-gothic, sans-serif;
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #91B4A3;
+border-radius: 16px;
+}
+textarea{
+font-family: century-gothic, sans-serif;
+width:100%;
+border:3px solid #91B4A3;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none;
+border-radius: 16px;
+}
+input[type="submit"]{
+  font-family: century-gothic, sans-serif;
+width:100%;
+padding:10px 45px;
+background-color:#91B4A3;
+border:none;
+color: #6C8C74;
+font-size: 22px;
+font-weight:700;
+border-radius: 16px;
+cursor:pointer;
 }
