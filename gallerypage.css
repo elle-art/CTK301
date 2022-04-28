@@ -1,12 +1,60 @@
 body {
   background-color: #E1E6E4;
 }
+.dark-mode {
+  background-color: #627D70;
+  color: #E1E6E4;
+  transition: background-color 0.5s, width 0.05s, color 0.5s;
+}
+button {
+  background: none;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #799A81;
+  border-radius: 550px;
+}
+#light {
+  grid-column: span 1;
+  font-family: century-gothic, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #BAD1C6;
+  color:#799A81;
+  padding: 10px;
+  text-decoration: none;
+  width: auto;
+  height: 50px;
+  border: 2px solid #BAD1C6;
+  border-radius: 40px;
+}
+#light:hover{
+  cursor: pointer;
+  color: #62736B;
+  transition: background-color 0.5s, width 0.05s, color 0.5s;
 
+}
+i {
+color:#799A81;
+font-size: 20px;
+}
+i:hover {
+color: #62736B;
+transition: background-color 0.5s, width 0.05s, color 0.5s;
+cursor: pointer;
+}
+
+body {
+  padding: 25px;
+  background-color: #E1E6E4;
+  color: black;
+  font-size: 25px;
+}
 #wrapper {
   margin: 24px auto;
   width: auto;
   padding: 24px;
-  background-color: #E1E6E4;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-column-gap: 5px;
@@ -28,14 +76,17 @@ body {
   height: 151px;
   border-radius: 25px;
 }
+nav {
+    grid-column: span 9;
+}
 nav ul {
-  grid-column: span 9;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 list-style-type: none;
-margin: 0px;
-margin-left: 3%;
-padding: 0px;
+margin: 24px auto;
+width: 1000px;
+padding: 10px;
+border: 1px solid red;
 }
 aside nav li a {
 background-color: #BAD1C6;
@@ -44,10 +95,8 @@ display: block;
 padding: 10px;
 text-decoration: none;
 transition: background-color 1.0s, width 1.0s, color 1.0s;
-width: 200px;
+width: auto;
 height: 120px;
-border: 2px solid #BAD1C6;
-background-color: #BAD1C6;
 border-radius: 40px;
 }
 aside nav li {
@@ -155,7 +204,7 @@ main div img{
 
 .text {
   white-space: normal;
-  font-size: 85%;
+  font-size: 60%;
   position: absolute;
   overflow: hidden;
   top: 1%;
@@ -254,4 +303,8 @@ font-size: 22px;
 font-weight:700;
 border-radius: 16px;
 cursor:pointer;
+}
+.fancybox__caption {
+  font-family: century-gothic, sans-serif;
+  text-align: center;
 }
