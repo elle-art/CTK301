@@ -84,12 +84,11 @@ text-decoration: none;
 transition: background-color 1.0s, width 1.0s, color 1.0s;
 width: auto;
 height: 123px;
-border: 2px solid #BAD1C6;
-background-color: #BAD1C6;
 border-radius: 40px;
 }
 nav li a:hover {
 background-color: #91B4A3;
+color: #4C7355
 }
 
 .circle {

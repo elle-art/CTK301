@@ -54,11 +54,10 @@ body {
 #wrapper {
   margin: 24px auto;
   width: auto;
-  padding: 24px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-column-gap: 5px;
-  /* border: 1px solid red; */
 }
 :root {
     --card_width: 360px;
@@ -71,54 +70,56 @@ body {
 }
 .roundedbox3 {
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
+  margin-left: 5%;
   width: 250px;
-  height: 151px;
+  height: 145px;
   border-radius: 25px;
 }
-nav {
-    grid-column: span 9;
+
+header {
+  grid-column: span 9;
 }
 nav ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+display: grid;
+grid-template-columns: repeat(4, 1fr);
 list-style-type: none;
-margin: 24px auto;
-width: 1000px;
+margin: auto;
+width: 95%;
 padding: 10px;
-border: 1px solid red;
 }
-aside nav li a {
-background-color: #BAD1C6;
-color:#799A81;
-display: block;
-padding: 10px;
-text-decoration: none;
-transition: background-color 1.0s, width 1.0s, color 1.0s;
-width: auto;
-height: 120px;
-border-radius: 40px;
-}
-aside nav li {
+nav li {
 vertical-align: middle;
 line-height: 120px;
 text-align: center;
 font-family: century-gothic,sans-serif;
-font-weight: 700;
-font-size: 40px;
+font-weight: 600;
+font-size: 35px;
 font-style: normal;
 display: inline-block;
 font-weight: bold;
-margin: 15px;
+margin: 10px;
 }
-aside nav li a:hover {
+nav li a {
+background-color: #BAD1C6;
+color:#799A81;
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+transition: background-color 1.0s, width 1.0s, color 1.0s;
+width: 90%;
+height: 120px;
+background-color: #BAD1C6;
+border-radius: 40px;
+}
+nav li a:hover {
 background-color: #91B4A3;
-color: #799A81;
+color: #4C7355
 }
+
 main {
   margin: 0px;
   grid-column: span 9;
-
 }
 
 main div img{
@@ -129,8 +130,8 @@ main div img{
 }
 
 .pin_container {
-  /* border: 1px solid red; */
     margin: 24px;
+    margin-top: 50px;
     padding: 0px;
     width: auto;
     text-align: center;
@@ -288,7 +289,7 @@ border:3px solid #91B4A3;
 padding:10px;
 margin-bottom:25px;
 margin-top:10px;
-height:100px;
+height:150px;
 resize:none;
 border-radius: 16px;
 }
